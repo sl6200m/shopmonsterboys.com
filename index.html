@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop Monster Boys - Your one-stop shop for unique monster-themed apparel and accessories">
+    <meta name="keywords" content="monster boys, t-shirts, hoodies, accessories, ecommerce, shopify">
+    <meta name="author" content="Shop Monster Boys">
+    <meta property="og:title" content="Shop Monster Boys - Monster-Themed Apparel">
+    <meta property="og:description" content="Your one-stop shop for unique monster-themed apparel and accessories">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shopmonsterboys.com">
+    <meta property="og:image" content="https://shopmonsterboys.com/assets/logo.png">
+    <title>Shop Monster Boys | Monster-Themed Apparel & Accessories</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="assets/images-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images-removebg-preview.png" alt="Monster Boys Logo">
+                <h1>MONSTER BOYS</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>UNLEASH YOUR INNER MONSTER</h2>
+            <p>Unique monster-themed apparel for the wild at heart</p>
+            <a href="#shop" class="btn">SHOP NOW</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="shop" class="featured-products">
+        <div class="container">
+            <h2>FEATURED PRODUCTS</h2>
+            <div class="product-grid">
+                <!-- Product cards will be dynamically inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>OUR STORY</h2>
+            <p>Monster Boys was born from a love of all things weird, wild, and wonderful. We believe everyone has an inner monster waiting to be unleashed, and our apparel helps you express that unique side of yourself.</p>
+            <p>All our products are ethically sourced and printed with eco-friendly inks. We're committed to quality, creativity, and making you look awesome.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>GET IN TOUCH</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">SEND MESSAGE</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <span class="close-cart">&times;</span>
+            <h2>YOUR CART</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically inserted here -->
+            </div>
+            <div class="cart-total">
+                <span>Total: $<span class="total-amount">0.00</span></span>
+                <button class="btn checkout-btn">CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="assets/pexels-andrew-3178786.jpg" alt="Monster Boys Logo">
+                <h3>MONSTER BOYS</h3>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h4>STAY MONSTROUS</h4>
+                <p>Subscribe for updates and exclusive offers</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit" class="btn">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Shop Monster Boys. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
